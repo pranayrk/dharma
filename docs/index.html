@@ -7,8 +7,8 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
-        <link rel="stylesheet" href="css/stotram.css">
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="css/dharma.css">
 	</head>
 	<body>
 		<div class="reveal">
@@ -20,8 +20,7 @@
 tato yuddhapariśrāntaṁ samarē cintayā sthitam
 ## रावणं चाग्रतो दृष्ट्वा युद्धाय समुपस्थितम् ॥
 rāvaṇaṁ cāgrato dr̥ṣṭvā yuddhāya samupasthitam
-</section>
-<section data-markdown>
+
 > On the battlefield, the battle-weary Rama was absorbed in worried thought.  
 > He could see Ravana was well-prepared for the upcoming war
 </section>
@@ -536,8 +535,12 @@ suragaṇamadhyagato vacastvarēti
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
+				controls: false,
 				hash: true,
-                slideNumber: true,
+				slideNumber: true,
+				jumpToSlide: true,
+				progress: false,
+				transition: 'none',
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
 			});

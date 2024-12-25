@@ -11,8 +11,12 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
+				controls: false,
 				hash: true,
-                slideNumber: true,
+				slideNumber: true,
+				jumpToSlide: true,
+				progress: false,
+				transition: 'none',
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
 			});

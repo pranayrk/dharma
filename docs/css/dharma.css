@@ -1,3 +1,7 @@
+.reveal-viewport {
+	background-color: black;
+}
+
 @font-face {
     font-family: sanskrit;
     src: url("sanskrit_2003.otf") format("opentype");
@@ -17,4 +21,7 @@ font-size: 30px;
 padding: 40px;
 width: 90%;
 font-size: 25px;
+position: fixed;
+ bottom: 0px;
 }
+

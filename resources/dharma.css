@@ -3,22 +3,23 @@
 }
 
 @font-face {
-    font-family: sanskrit;
-    src: url("sanskrit_2003.otf") format("opentype");
+	font-family: sanskrit;
+	src: url("sanskrit_2003.otf") format("opentype");
 }
 .reveal h2 {
-    font-size: 60px;
-    font-weight: normal;
-    font-family: 'sanskrit', serif;
+	font-size: 60px;
+	font-weight: normal;
+	font-family: 'sanskrit', serif;
 }
 
 .reveal section  {
-font-size: 30px;
-
+	font-size: 30px;
 }
 
 .reveal blockquote {
-padding: 40px;
-width: 90%;
-font-size: 25px;
+	padding: 20px;
+	width: 90%;
+	font-size: 25px;
+	position: fixed;
+	bottom: 0px;
 }

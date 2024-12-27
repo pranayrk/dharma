@@ -6,20 +6,25 @@
 	font-family: sanskrit;
 	src: url("sanskrit_2003.otf") format("opentype");
 }
+
 .reveal h2 {
-	font-size: 60px;
+	font-size: 45px;
 	font-weight: normal;
 	font-family: 'sanskrit', serif;
 }
 
 .reveal section  {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .reveal blockquote {
-	padding: 20px;
-	width: 90%;
+	padding: 10px;
+	width: 140%;
 	font-size: 25px;
 	position: fixed;
-	bottom: 0px;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	background-color: black;
+
 }
